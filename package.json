@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://stash.jc21.com/scm/node/radarr-api"
+    "url": "https://github.com/jc21/nodejs-radarr-api"
   },
   "devDependencies": {
     "@nofrills/lincoln": "^5.0.1",
