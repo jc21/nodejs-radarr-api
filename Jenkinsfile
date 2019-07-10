@@ -4,6 +4,7 @@ pipeline {
     disableConcurrentBuilds()
   }
   agent any
+  stages {
     stage('Build') {
       steps {
         ansiColor('xterm') {
