@@ -1,0 +1,10 @@
+.cache
+node_modules/
+src/
+Jenkinsfile
+mocha.opts
+tsconfig*.json
+tslint.json
+*.map
+*.log
+*.tgz

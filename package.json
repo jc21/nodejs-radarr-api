@@ -1,0 +1,33 @@
+{
+  "name": "@jc21/radarr-api",
+  "version": "0.1.0",
+  "description": "An API Client for Radarr",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "Jamie Curnow <jc@jc21.com> (https://jc21.com)",
+  "license": "MIT",
+  "keywords": [
+    "radarr",
+    "api"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.jc21.com/scm/node/radarr-api"
+  },
+  "devDependencies": {
+    "@nofrills/lincoln-debug": "^3.6.0",
+    "@types/node": "^10.10.1",
+    "@types/node-fetch": "^2.1.2",
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@nofrills/http": "^3.5.0"
+  }
+}
