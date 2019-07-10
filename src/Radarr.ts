@@ -64,13 +64,6 @@ export class Radarr extends HTTP {
     }
 
     /**
-     * Name of the Class
-     */
-    public get name(): string {
-        return "radarr";
-    }
-
-    /**
      * HTTP Request
      */
     protected async request<TRequest>(body?: TRequest): Promise<RequestInit> {
