@@ -66,7 +66,7 @@ export class Radarr extends HTTP {
     /**
      * Name of the Class
      */
-    protected get name(): string {
+    public get name(): string {
         return "radarr";
     }
 
